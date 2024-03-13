@@ -2,8 +2,17 @@
 display:flex;
 }
 
+#listraheader{
+background-image:url("imagens/listraheader.jpg");
+background-repeat: repeat-x;
+height: 20px;
+background-size: 100px 500px;
+margin: 0px 0px 10px 0px;
+}
+
 #header1{
     background-color:lightgray
+
 }
 
 #botao{
