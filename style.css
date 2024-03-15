@@ -1,11 +1,8 @@
-#botoesheader{
-display:flex;
-width:auto;
-
-}
 .floatright{
-    
-    
+    display:flex;
+    justify-content:right;
+    width:80%;
+    margin-left:auto;
 }
 .inverteX{
     transform:scaleX(-1)
@@ -19,11 +16,29 @@ width:auto;
     transform:rotate(270deg)
 }
 
+#divh1header1{
+    display:flex;
+    justify-content: center;
+    height:50px;
+}
+
+#h1header1{
+    margin-block-start:6px;
+    white-space: nowrap;
+}
+
+#botoesheader{
+display:flex;
+width:auto;
+
+}
+
 .hrheader{
     height: 15px;
-    width: 0px;
+    width: 2px;
     margin: 2px 0px 6px 6px;
-    background-color: gray;
+    background-color: rgb(177, 174, 174);
+    border:0px;
 }
 
 #listraheader{
@@ -35,25 +50,54 @@ margin: 0px 0px 10px 0px;
 }
 
 #header1{
-    background-color:lightgray
+    background-color:lightgray;
+    margin-block-start:-10px;
+    margin-left:-10px;
+    margin-right:-10px;
 
 }
 
 .botaoheader{
     background-color:rgb(219, 219, 219);
     margin: 0px 0px 0px 6px;
-    border-color: rgb(190, 190, 190);
+    border:1px solid rgb(156, 156, 156);
 }
 .pdobotao{
     font-size:10px;
     margin-block-start:2px;
     margin-left:4px;
     font-weight: 600; 
+    white-space:nowrap;
 }
 
 .divdobotao{
     display:flex;
-    height: 15px;
+    height:15px;
     width: auto;
    
+}
+
+#body1{
+    display:flex;
+    background-color:lightgray;
+    margin-left:-10px;
+    margin-right:-10px;
+}
+
+#navegation{
+    display:flex;
+    width:300px;
+    height:100%;
+}
+
+#overview{
+    display:flex;
+    width:100%;
+    height:500px;
+}
+
+#atributes{
+    display:flex;
+    width:100%;
+    height:500px;
 }
